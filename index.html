@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Project</title>
+	<!--Bailey Coleman CSCE 102 Section 14 1/18/23-->
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1>Bailey Coleman</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			<ul>
+		</nav>
+		<main>
+			<section id="slide-show">
+				<img id="sky-image" class="visible" src="images/sky.jpg">
+				<img id="city-image" class="hidden" src="images/city.jpg">
+				<img id="river-image" class="hidden" src="images/river.jpg">
+				<img id="rocks-image" class="hidden" src="images/rocks.jpg">
+			</section>
+			<section>
+				<h2 class="heading">About me</h2>
+				<p>My name is Bailey Coleman and I am from Greenville, South Carolina. I am a senior at the University of South Carolina and will be graduating in May 2023. My major is biology with a minor in chemistry. I participate in two women dominate clubs as well as do undergraduate research in the Dudyka lab.</p>
+				<p id="expand" class="visible">Outside of school, I enjoy painting, cooking, watching TV, going out with friends, and shopping. I also enjoy music a lot. Some of my favorite generas of music are hip-hop, r and b, and indie. Something like listening to music and painting with friends would be my idea of a fun day.</p>
+				<a href="#" id="link" onclick="expandParagraph()">See More...</a>
+			</section>
+			<section>
+				<h2 class="heading">My Future Career Plans</h2>
+				<p>Picking a career has been very hard for me. There are a lot of routes you can go with my major and I have changed my mind a lot. Originally, I was on the route to go to dental school. After careful deliberation, I decided that another four years of school was not for me. Since dropping that plan, I have cycled through possible options for my future.</p>
+				<p id="expand-p" class="visible">One other possibility is graduate school, but I don't plan on doing that directly out of undergraduate. As of right now, my plan is to move back to my hometown for a couple of  years and work an entry level job. Hopefully through this experience and time I can decifer but I want in a career as well as pay off some of my loans before jumping into more schooling.</p>
+				<a href="#" id="link-two" onclick="expandFuture()">See More...</a>
+			</section>
+			<section>
+				<h2 class="heading">What I Learned in Computer Science</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/PD9GqKnUHeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</section>
+		</main>
+		<footer>
+			<p>&copy;Bailey</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

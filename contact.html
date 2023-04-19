@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Project</title>
+	<!--Bailey Coleman CSCE 102 Section 14 1/18/23-->
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1>Bailey Coleman</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			<ul>
+		</nav>
+		<main>
+			<h2>Directions</h2>
+			<p><strong>Jones Physical Science Center</strong><br>745 Main St.<br>Columbia, SC 29201</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13231.59281208739!2d-81.0305006!3d33.9951484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bad7d3035f2d%3A0xd5ef686de6fba82e!2sJones%20Physical%20Science%20Center!5e0!3m2!1sen!2sus!4v1677879401383!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<h2>Contact Me</h2>
+			<form action="https://api.web3forms.com/submit" method="POST">
+				<input type="hidden" name="access_key" value="a3de2732-9ccd-4c6c-9663-7c4161726499">
+				<h6>Name:</h6>
+				<input type="text" name="name" required>
+				<h6>Email:</h6>
+				<input type="email" name="email" required>
+				<h6>Message:</h6>
+				<textarea name="message" required></textarea>
+				<input type="hidden" name="redirect" value="https://web3forms.com/success">
+				<br>
+				<button type="submit">Submit Form</button>
+			</form>
+		</main>
+		<footer>
+			<p>&copy;Bailey</p>
+		</footer>
+	</div>
+</body>
+</html>
